@@ -1,4 +1,4 @@
-### chap12/beckett.py
+### chap12/beckett32.py
 
 # Set the number of actors in your play, which
 # must be less than or equal to 10
@@ -8,6 +8,7 @@ assert num_actors <= 10
 # Setup for pretty printing
 on_stage = 0  # encoding of who is on stage
 if num_actors == 3:
+    # Used to demonstrate the dance with playing cards
     names = 'KQJ'
 else:
     names = 'ABCDEFGHIJ'[:num_actors]

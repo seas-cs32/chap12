@@ -1,6 +1,7 @@
 This directory contains everything needed for
 **Chapter 12 (Divide and Conquer)** in
-*Computational Thinking and Problem Solving*.
+[*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
+by Michael D. Smith.
 
 `unsort.py`: A module to import that makes it easy to create
 and unsort a collection of three different lists.
@@ -38,12 +39,7 @@ a while-statement.
 
 `beckett1.py`: A solution to Beckett's challenge with 0 or 1 actors.
 
-`beckett.py`: A complete solution to Beckett's challenge.
-
-`hw13.ipynb`: A homework that provides practice with recursion and
-introduces plotting facilities in Python. We used plotting in an
-earlier homework, but this is the first time we explain the library
-and its methods.
+`beckett32.py`: A complete solution to Beckett's challenge.
 
 `ale01`: Folder with files for ALE 12.1 in textbook.
 
