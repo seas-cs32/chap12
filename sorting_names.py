@@ -43,16 +43,16 @@ def sort_key_h(item):
     '''Expects item to be a string of the form "first [middle ...] last"'''
     name = item.lower().split()
 
-    # Grab the last name while avoiding common English name suffix. This code
+    # Grab the last name while avoiding common English name suffixes. This code
     # certainly doesn't handle every conceivable name suffix.
     last = name[-1]
-    if last[-1] == '.' or last == 'II' or last == 'III' or last == 'IV':
+    if last[-1] == '.' or last == 'ii' or last == 'iii' or last == 'iv':
         # Skip suffixes like "Jr." and "Sr." and related with Roman numerals
         last = name[-2]
-        # Remove this suffix from the `other` computation
+        # Remove this suffix from the `others` computation
         name.pop()
 
-    others = ' '.join(name[:-1])
+    others = ''.join(name[:-1])
     return last + others
 
 def main():
