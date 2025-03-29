@@ -13,7 +13,7 @@ def main():
     # Test with 1 actor
     num_actors = 1
 
-    print(f'empty stage')
+    print('empty stage')
 
     beckett(num_actors)
 

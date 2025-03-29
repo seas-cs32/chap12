@@ -9,7 +9,7 @@ def main():
     # Our first attempt at a driver script
     num_actors = 0
 
-    print(f'empty stage')
+    print('empty stage')
 
     beckett(num_actors)
 
