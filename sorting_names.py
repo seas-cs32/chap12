@@ -1,5 +1,4 @@
 ### chap12/sorting_names.py
-from unsort import unsort
 
 ###
 # Solution #1
